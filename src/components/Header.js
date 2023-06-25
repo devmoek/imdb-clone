@@ -2,6 +2,7 @@ import React from 'react';
 import MenuItem from './MenuItem';
 import { AiOutlineHome, AiOutlineInfoCircle } from "react-icons/ai";
 import Link from 'next/link';
+import DarkModeSwitch from './DarkModeSwitch';
 
 export default function Header() {
   return (
@@ -10,7 +11,8 @@ export default function Header() {
         <MenuItem title="Home" address="/" Icon={AiOutlineHome} />
         <MenuItem title="About" address="/about" Icon={AiOutlineInfoCircle} />
       </div>
-      <div className="">
+      <div className="flex items-center space-x-5">
+      <DarkModeSwitch />
         <Link href="/">
             <h2 className='text-2xl'>
                 <span className='font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1'>IMDb</span>

@@ -63,6 +63,30 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/Providers.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/Providers.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/DarkModeSwitch.js": {
+      "*": {
+        "id": "(sc_client)/./src/components/DarkModeSwitch.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/NavbarItem.js": {
+      "*": {
+        "id": "(sc_client)/./src/components/NavbarItem.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -242,9 +266,37 @@
         "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
+    },
+    "/Users/myers/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - MacBook Pro — admin/Projects/nextjs/imdb/src/app/Providers.js": {
+      "id": "(app-client)/./src/app/Providers.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/myers/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - MacBook Pro — admin/Projects/nextjs/imdb/src/components/DarkModeSwitch.js": {
+      "id": "(app-client)/./src/components/DarkModeSwitch.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/myers/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - MacBook Pro — admin/Projects/nextjs/imdb/src/components/NavbarItem.js": {
+      "id": "(app-client)/./src/components/NavbarItem.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
+    "/Users/myers/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - MacBook Pro — admin/Projects/nextjs/imdb/src/app/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/myers/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - MacBook Pro — admin/Projects/nextjs/imdb/src/app/layout": {
       "modules": [
         "/Users/myers/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - MacBook Pro — admin/Projects/nextjs/imdb/src/app/globals.css"
@@ -253,7 +305,7 @@
         "static/css/app/layout.css"
       ]
     },
-    "/Users/myers/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - MacBook Pro — admin/Projects/nextjs/imdb/src/app/page": {
+    "/Users/myers/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - MacBook Pro — admin/Projects/nextjs/imdb/src/app/about/page": {
       "modules": [],
       "files": []
     }
