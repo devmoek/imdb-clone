@@ -19,9 +19,9 @@ export default function SearchBox() {
         onChange={(e) => setSearch(e.target.value)}
         type="text"
         placeholder="Search..."
-        className="w-full h-14 rounded-sm placeholder-gray-500 flex-1"
+        className="w-full h-14 rounded-sm placeholder-gray-500 flex-1 pl-4"
       />
-      <button disabled={!search} type="submit" className="text-abmber-600 disabled:text-gray-400">
+      <button disabled={!search} type="submit" className="text-abmber-600 disabled:text-gray-400 pl-2">
         Search
       </button>
     </form>
